@@ -1,0 +1,40 @@
+{
+  "name": "contracts-hello",
+  "version": "0.1.0",
+  "description": "Learn contracts development",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy:local": "npx hardhat ignition deploy --network localhost",
+    "clean:local": "rm -rf ignition/deployments/chain-31337",
+    "run": "npx hardhat run  ",
+    "run:local": "npx hardhat --network localhost run  ",
+    "test:local": "hardhat --network localhost test"
+  },
+  "keywords": [
+    "Solidity",
+    "EVM"
+  ],
+  "author": "Coder-Van",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.5",
+    "@nomicfoundation/hardhat-ignition": "^0.15.0",
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.5",
+    "@nomicfoundation/ignition-core": "^0.15.0",
+    "chai": "4.3.4",
+    "ethers": "^6.11.1",
+    "hardhat": "^2.22.2",
+    "hardhat-contract-sizer": "^2.10.0",
+    "hardhat-deploy": "^0.12.2",
+    "hardhat-gas-reporter": "^2.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "@openzeppelin/contracts-upgradeable": "^5.0.2"
+  }
+}

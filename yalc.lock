@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "@matchain/ensjs": {
+      "version": "3.5.0",
+      "signature": "8210cf4a57893790e45b100f87b58435",
+      "file": true
+    }
+  }
+}

@@ -1,0 +1,17 @@
+node_modules
+.env
+.yalc
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+ignition/deployments/chain-31337/*
