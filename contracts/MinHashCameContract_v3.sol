@@ -1,4 +1,6 @@
 // SPDX-License-Identifier: MIT
+// #### 版本3
+// 增加LuckyToken奖励，获奖者可领取奖励
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";

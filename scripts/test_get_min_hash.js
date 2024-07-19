@@ -1,4 +1,6 @@
 // 计算最小地址的脚本
+// #### 版本4
+// 写一个脚本来计算地址，最好通过助记词来生成
 const { ethers } = require("hardhat");
 
 async function main() {

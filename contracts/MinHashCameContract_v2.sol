@@ -1,4 +1,6 @@
 // SPDX-License-Identifier: MIT
+// #### 版本2
+// 增加轮次和合约Owner，Owner来设置游戏轮次信息和公布获奖者
 pragma solidity ^0.8.0;
 
 contract MinHashGameContract {
