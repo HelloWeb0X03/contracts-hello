@@ -10,7 +10,8 @@ import 'hardhat-deploy'
 import 'hardhat-gas-reporter'
 import { HardhatUserConfig } from 'hardhat/config'
 
-let real_accounts = undefined
+let real_accounts = ['7ca1970e94a2aecf4c3dd791b6b1d04735bc98cc26d248ffb64eefde879cf5f8'] // metamask 的 私钥
+
 if (process.env.DEPLOYER_KEY) {
   real_accounts = [
     process.env.DEPLOYER_KEY,
@@ -37,7 +38,7 @@ const config: HardhatUserConfig = {
       // accounts: real_accounts,
     },
     sepolia: {
-      url: `https://sepolia.infura.io/v3/${process.env.INFURA_API_KEY}`,
+      url: `https://eth-sepolia.g.alchemy.com/v2/q_pvI4xlNg1dH7OgLYGw7AZseeZRqQlV`, // 在 alchemy 网站 获取
       tags: ['test', 'legacy', 'use_root'],
       chainId: 11155111,
       accounts: real_accounts,
