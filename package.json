@@ -36,7 +36,12 @@
   "dependencies": {
     "@openzeppelin/contracts": "^5.0.2",
     "@openzeppelin/contracts-upgradeable": "^5.0.2",
+    "bip32": "^4.0.0",
+    "bip39": "^3.1.0",
     "chai-as-promised": "^8.0.0",
-    "ethereum-waffle": "^3.0.10"
+    "ethereum-waffle": "^3.0.10",
+    "ethereumjs-util": "^7.1.5",
+    "ethereumjs-wallet": "^1.0.2",
+    "hdkey": "^2.1.0"
   }
 }
